@@ -66,7 +66,7 @@ Given the patterns observed in complexity scaling, a **generalized equation** th
 O(n^{p} (\log n)^q (\sqrt{\log n})^r (\log \log n)^s)
 \]
 
-
+![Equation](https://github.com/eesb99/Efficient-High-Order-Differentiation-for-Large-AI-Models-STDE-DINOs-and-Quantum-Optimization/blob/main/CodeCogsEqn.png)
 where:
 - \( p \) adjusts the **linear contribution** (Base case: \( p=2 \) for Hessians).
 - \( q \) adjusts the **logarithmic reduction** (Auto-Diff: \( q=1 \)).
