@@ -64,7 +64,6 @@ Given the patterns observed in complexity scaling, a **generalized equation** th
 
 ![parameters](https://github.com/eesb99/Efficient-High-Order-Differentiation-for-Large-AI-Models-STDE-DINOs-and-Quantum-Optimization/blob/main/CodeCogsEqn.png)
 
-Applying this equation to specific methods:
 ![table](https://github.com/eesb99/Efficient-High-Order-Differentiation-for-Large-AI-Models-STDE-DINOs-and-Quantum-Optimization/blob/main/codetable.png)
 
 This equation models the transition from brute-force Hessians to **scalable AI-based optimizations**.
