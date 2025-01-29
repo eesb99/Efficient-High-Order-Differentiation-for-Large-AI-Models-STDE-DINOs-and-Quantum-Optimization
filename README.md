@@ -1,7 +1,5 @@
 # Efficient-High-Order-Differentiation-for-Large-AI-Models-STDE-DINOs-and-Quantum-Optimization
 
-# Final Structured Summary: Optimizing AI Model Training with STDE, DINOs, and Quantum AI
-
 ## 1️⃣ The Core Problem: High-Order Derivatives are Computationally Expensive
 - Neural networks with high-dimensional PDEs (like PINNs) require second- and higher-order derivatives.
 - Backpropagation and Auto-Diff struggle due to the massive computational cost of full Hessians (**O(n²)**).
@@ -67,11 +65,6 @@ O(n^{p} (\log n)^q (\sqrt{\log n})^r (\log \log n)^s)
 \]
 
 ![parameters](https://github.com/eesb99/Efficient-High-Order-Differentiation-for-Large-AI-Models-STDE-DINOs-and-Quantum-Optimization/blob/main/CodeCogsEqn.png)
-where:
-- \( p \) adjusts the **linear contribution** (Base case: \( p=2 \) for Hessians).
-- \( q \) adjusts the **logarithmic reduction** (Auto-Diff: \( q=1 \)).
-- \( r \) introduces **square root compression** (STDE: \( r=1 \)).
-- \( s \) introduces **nested logarithmic scaling** (DINOs: \( s=1 \)).
 
 Applying this equation to specific methods:
 
