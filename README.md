@@ -75,6 +75,8 @@ Applying this equation to specific methods:
 | **STDE / HTE** | O(n (log n)^{0.5}) (Square root of log) |
 | **DINOs (Deep Operators)** | O(n (log log n)^1) (Double-log transformation) |
 
+![table](https://github.com/eesb99/Efficient-High-Order-Differentiation-for-Large-AI-Models-STDE-DINOs-and-Quantum-Optimization/blob/main/codetable.png)
+
 This equation models the transition from brute-force Hessians to **scalable AI-based optimizations**.
 
 ---
