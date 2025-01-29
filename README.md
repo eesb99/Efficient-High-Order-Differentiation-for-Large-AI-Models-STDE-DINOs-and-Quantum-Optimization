@@ -60,21 +60,11 @@ The best method depends on model size—**STDE and DINOs are ideal for extreme-s
 
 Given the patterns observed in complexity scaling, a **generalized equation** that captures the efficiency of different optimization methods is:
 
-\[
-O(n^{p} (\log n)^q (\sqrt{\log n})^r (\log \log n)^s)
-\]
+![Equation](https://github.com/eesb99/Efficient-High-Order-Differentiation-for-Large-AI-Models-STDE-DINOs-and-Quantum-Optimization/blob/main/CodeCogsEqn1.png)
 
 ![parameters](https://github.com/eesb99/Efficient-High-Order-Differentiation-for-Large-AI-Models-STDE-DINOs-and-Quantum-Optimization/blob/main/CodeCogsEqn.png)
 
 Applying this equation to specific methods:
-
-| **Method** | **Unified Complexity Form** |
-|------------|--------------------------|
-| **Full Hessian** | O(n²) (Baseline Quadratic) |
-| **Auto-Diff** | O(n (log n)^1) |
-| **STDE / HTE** | O(n (log n)^{0.5}) (Square root of log) |
-| **DINOs (Deep Operators)** | O(n (log log n)^1) (Double-log transformation) |
-
 ![table](https://github.com/eesb99/Efficient-High-Order-Differentiation-for-Large-AI-Models-STDE-DINOs-and-Quantum-Optimization/blob/main/codetable.png)
 
 This equation models the transition from brute-force Hessians to **scalable AI-based optimizations**.
